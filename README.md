@@ -1,7 +1,7 @@
 # Intent Evaluation samples
 
 #### Scripts
-- The intents you want to eval should be in a file named `statements.csv`. Alternately, you can change the name of the file in `intent_prediction.py`. Each statement to be evaluated should be on its own line (if you're using Excel, its own row).
+- The intents you want to evaluate should be in a file named `statements.csv`. Alternately, you can change the name of the file in `intent_prediction.py`. Each statement to be evaluated should be on its own line (if you're using Excel, its own row).
 - Change `api_string` to the string for your environment. For more details, refer to the [Rasa API spec](https://rasa.com/docs/rasa/pages/http-api).
 - Check the API spec to find other data you want to include in your report, and make sure to add a heading for it and account for the data to be written. (Follow the comments in the file.)
 
